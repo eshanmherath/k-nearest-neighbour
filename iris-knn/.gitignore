@@ -1,0 +1,12 @@
+*.pyc
+__pycache__
+.idea
+target
+build
+cache
+*.ipr
+*.iml
+*.*~
+*~
+.log
+.~lock.*
