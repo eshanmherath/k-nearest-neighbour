@@ -1,7 +1,8 @@
 __author__ = 'eshan'
 
-from math import sqrt
 import operator
+from math import sqrt
+
 import pandas as pd
 
 
@@ -25,8 +26,8 @@ def get_prediction(test_instance):
     return max(candidates, key=candidates.count)
 
 
-training = pd.read_csv('iris_training.csv')
-test = pd.read_csv('iris_test.csv')
+training = pd.read_csv('data\iris\iris_training.csv')
+test = pd.read_csv('data\iris\iris_test.csv')
 correct_predictions = 0
 k = 9                                             # number of neighbours to be considered in decision making
 
